@@ -7,13 +7,25 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 377888
+  numberOfFiles: 2
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10029
+    name: Cricetulus griseus - Cricetulus aureus
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023)
   Cell membrane charging by 300 ns pulses applied alternately to base electrodes E1
   and E2 of triangular eletrode array (inset) (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000634/draft
+  https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -49,8 +61,10 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-09-14T19:16:36.468068+00:00'
+datePublished: '2023-10-04T20:28:35.732116+00:00'
 description: Cell membrane charging by 300 ns pulses applied alternately to base electrodes
   E1 and E2 of triangular eletrode array (inset). Supported by NIH 1R21EY034258
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000634/draft
 identifier: DANDI:000634
@@ -62,6 +76,18 @@ manifestLocation:
 name: Cell membrane charging by 300 ns pulses applied alternately to base electrodes
   E1 and E2 of triangular eletrode array (inset)
 protocol: []
+publishedBy:
+  endDate: '2023-10-04T20:28:35.732116+00:00'
+  id: urn:uuid:ca591d38-706f-4bf4-8b02-9a7a462a5067
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-10-04T20:28:35.732116+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:22fe0828-e5d6-446f-83d7-1eaa69688fa5
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Control of the Electroporation Efficiency of Nanosecond Pulses by Swinging
     the Electric Field Vector Direction
