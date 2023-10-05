@@ -24,7 +24,7 @@ assetsSummary:
   variableMeasured: []
 citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2023)
   Cell Membrane Charging by Co- and Counter-Directional ns electrical pulses (nsEP)
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000634/draft
+  (Version 0.231005.1820) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000634/0.231005.1820
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -73,14 +73,15 @@ description: Strobe photography, used at nanosecond resolution, captures the dyn
   a comprehensive and reliable examination of the cell membrane's behavior under electrical
   stimulation without causing damage, ensuring consistent observations to understand
   cellular responses to varying electrical stimuli. Supported by NIH 1R21EY034258
+doi: 10.48324/dandi.000634/0.231005.1820
 ethicsApproval: []
-id: DANDI:000634/draft
+id: DANDI:000634/0.231005.1820
 identifier: DANDI:000634
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000634/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000634/0.231005.1820/assets.yaml
 name: Cell Membrane Charging by Co- and Counter-Directional ns electrical pulses (nsEP)
 protocol: []
 publishedBy:
@@ -105,8 +106,8 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000634/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000634/0.231005.1820
+version: 0.231005.1820
 wasGeneratedBy:
 - identifier: NIH 1R21EY034258
   name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
